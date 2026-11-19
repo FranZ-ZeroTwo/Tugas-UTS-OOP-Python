@@ -1,0 +1,69 @@
+{
+    "pajak": 0.12,
+    "produk": [
+        {
+            "tipe": "elektronik",
+            "kode": "ELK-01",
+            "nama": "Laptop Gaming MSI Thin 15",
+            "harga": 11500000.0,
+            "stok": 5,
+            "garansi_bulan": 24
+        },
+        {
+            "tipe": "elektronik",
+            "kode": "ELK-02",
+            "nama": "Mouse Wireless Logitech",
+            "harga": 350000.0,
+            "stok": 15,
+            "garansi_bulan": 12
+        },
+        {
+            "tipe": "digital",
+            "kode": "DIG-01",
+            "nama": "Lisensi Windows 11 Pro",
+            "harga": 450000.0,
+            "stok": 30,
+            "jenis_lisensi": "Lifetime Key"
+        },
+        {
+            "tipe": "elektronik",
+            "kode": "ELK-4",
+            "nama": "Laptop MSI Titan 18 HX Dragon Edition Draco Epic",
+            "harga": 119000000.0,
+            "stok": 10,
+            "garansi_bulan": 12
+        },
+        {
+            "tipe": "elektronik",
+            "kode": "ELK-3",
+            "nama": "Laptop ROG Zephyrus G16",
+            "harga": 43000000.0,
+            "stok": 10,
+            "garansi_bulan": 12
+        },
+        {
+            "tipe": "elektronik",
+            "kode": "ELK-5",
+            "nama": "Laptop Legion 9i",
+            "harga": 95000000.0,
+            "stok": 10,
+            "garansi_bulan": 12
+        },
+        {
+            "tipe": "elektronik",
+            "kode": "ELK-6",
+            "nama": "Keyboard Logitech K380s",
+            "harga": 590000.0,
+            "stok": 10,
+            "garansi_bulan": 12
+        },
+        {
+            "tipe": "elektronik",
+            "kode": "ELK-7",
+            "nama": "Smartphone REDMAGIC 12 PRO",
+            "harga": 25000000.0,
+            "stok": 10,
+            "garansi_bulan": 12
+        }
+    ]
+}
