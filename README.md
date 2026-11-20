@@ -1,4 +1,4 @@
-# FranZ x Store - Project Sederhana OOP Python Dan Sistem Manajemen Inventaris Produk (Python OOP & Flask)
+# FranZ x Store — Sistem Manajemen Inventaris Produk (Python OOP & Flask)
 
 Aplikasi manajemen produk elektronik dan digital yang dibangun menggunakan bahasa pemrograman **Python** dengan menerapkan konsep **Pemrograman Berorientasi Objek (Object-Oriented Programming / OOP)**. 
 
@@ -10,8 +10,6 @@ Proyek ini menyediakan dua antarmuka sekaligus:
 
 ## Identitas Pembuat
 * **Nama:** Frands Sisco
-* **Nim:**  [14012500104]
-* **Kelas:** [3A-KOM]
 * **GitHub:** [@FranZ-ZeroTwo](https://github.com/FranZ-ZeroTwo)
 * **Proyek:** Tugas UTS Pemrograman Berorientasi Objek (Python)
 
