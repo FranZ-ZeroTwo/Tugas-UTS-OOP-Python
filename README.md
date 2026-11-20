@@ -10,6 +10,8 @@ Proyek ini menyediakan dua antarmuka sekaligus:
 
 ## Identitas Pembuat
 * **Nama:** Frands Sisco
+* **Nim:** [14012500104]
+* **Kelas:** 3A_KOM
 * **GitHub:** [@FranZ-ZeroTwo](https://github.com/FranZ-ZeroTwo)
 * **Proyek:** Tugas UTS Pemrograman Berorientasi Objek (Python)
 
