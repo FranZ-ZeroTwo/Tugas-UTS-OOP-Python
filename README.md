@@ -17,6 +17,21 @@ Proyek ini menyediakan dua antarmuka sekaligus:
 
 ---
 
+## Penerapan Konsep OOP (`main.py`)
+
+Seluruh logika bisnis pada `main.py` dibangun di atas empat pilar utama OOP dan metode khusus Python:
+
+| Konsep OOP | Implementasi di dalam Kode |
+| :--- | :--- |
+| **Class & Object** | Kelas induk `Produk` serta kelas turunan `ProdukElektronik` dan `ProdukDigital` yang diinstansiasi ke dalam `katalog`. |
+| **Encapsulation** | Atribut privat `self.__harga` dan `self.__stok` dilindungi dan divalidasi melalui `@property`, `@harga.setter` (`> 0`), serta `@stok.setter` (`>= 0`). |
+| **Inheritance** | `ProdukElektronik` (menambah atribut `garansi_bulan`) dan `ProdukDigital` (menambah atribut `platform`) mewarisi atribut dan metode `Produk` via `super().__init__()`. |
+| **Polymorphism** | *Method overriding* pada `tampilkan_info()` di masing-masing subclass untuk menampilkan informasi spesifik produk fisik maupun digital. |
+| **Class Variable & Method** | `nama_toko`, `total_produk`, dan `total_pendapatan` diakses melalui `@classmethod` (`get_total_produk()`, `get_total_pendapatan()`). |
+| **Static Method** | Utilitas mandiri `format_rupiah()` untuk pemformatan mata uang IDR dan `hitung_pajak_ppn()` untuk kalkulasi PPN 11%. |
+
+---
+
 ## Penerapan Pilar & Konsep OOP (`produk.py`)
 
 Seluruh logika bisnis dan struktur data toko dirancang di dalam modul `produk.py` dengan menerapkan konsep berikut:
