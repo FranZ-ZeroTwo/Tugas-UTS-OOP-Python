@@ -32,7 +32,7 @@ Seluruh logika bisnis pada `main.py` dibangun di atas empat pilar utama OOP dan 
 
 ---
 
-## Penerapan Pilar & Konsep OOP (Opsional) (`produk.py`)
+## Penerapan Pilar & Konsep OOP (`produk.py`) (Opsional)
 
 Seluruh logika bisnis dan struktur data toko dirancang di dalam modul `produk.py` dengan menerapkan konsep berikut:
 
@@ -76,7 +76,7 @@ Versi ini hanya menggunakan library bawaan Python tanpa perlu instalasi paket ek
 python main.py
 ```
 
-### 2. Menjalankan Versi Web (Flask)
+### 2. Menjalankan Versi Web (Flask) (Opsional)
 1. Instal library **Flask**:
    ```bash
    pip install flask
@@ -92,7 +92,7 @@ python main.py
 
 ---
 
-## Fitur Utama Versi Web
+## Fitur Utama Versi Web (Opsional)
 * **Dashboard Ringkasan:** Menampilkan total jenis produk, total unit stok tersedia, dan estimasi total nilai aset toko secara *real-time*.
 * **Tambah Produk Baru:** Mendukung penambahan kategori *Produk Elektronik* (input masa garansi) maupun *Produk Digital* (input jenis lisensi) secara dinamis.
 * **Uji Validasi Encapsulation:** Mengubah harga produk langsung dari tabel dengan validasi otomatis terhadap input harga negatif.
