@@ -4,7 +4,7 @@ Aplikasi manajemen produk elektronik dan digital yang dibangun menggunakan bahas
 
 Proyek ini menyediakan dua antarmuka sekaligus:
 1. **Mode Terminal (CLI)** menggunakan Python standar (`main.py`).
-2. **Mode Web Interaktif** menggunakan framework **Flask** dan penyimpanan data otomatis berbasis **JSON** (`app_flask.py`).
+2. **Mode Web Interaktif (Opsional)** menggunakan framework **Flask** dan penyimpanan data otomatis berbasis **JSON** (`app_flask.py`).
 
 ---
 
@@ -32,7 +32,7 @@ Seluruh logika bisnis pada `main.py` dibangun di atas empat pilar utama OOP dan 
 
 ---
 
-## Penerapan Pilar & Konsep OOP (`produk.py`)
+## Penerapan Pilar & Konsep OOP (Opsional) (`produk.py`)
 
 Seluruh logika bisnis dan struktur data toko dirancang di dalam modul `produk.py` dengan menerapkan konsep berikut:
 
@@ -56,13 +56,13 @@ Seluruh logika bisnis dan struktur data toko dirancang di dalam modul `produk.py
 
 ```text
 FranZ x Store/
-├── produk.py          # Definisi kelas OOP (Produk, ProdukElektronik, ProdukDigital)
+├── produk.py          # Definisi kelas OOP (Produk, ProdukElektronik, ProdukDigital) (opsional)
 ├── main.py            # Program utama versi Terminal / Command Line (CLI)
-├── storage.py         # Modul baca/tulis data produk ke format JSON
-├── app_flask.py       # Server web Flask (Routing & manajemen CRUD)
-├── data_toko.json     # Penyimpanan data inventaris persisten (otomatis terbuat)
+├── storage.py         # Modul baca/tulis data produk ke format JSON (opsional)
+├── app_flask.py       # Server web Flask (Routing & manajemen CRUD) (opsional)
+├── data_toko.json     # Penyimpanan data inventaris persisten (otomatis terbuat) (opsional)
 ├── templates/
-│   └── index.html     # Antarmuka web dashboard (HTML & CSS)
+│   └── index.html     # Antarmuka web dashboard (HTML & CSS) (opsional)
 └── README.md          # Dokumentasi proyek
 ```
 
