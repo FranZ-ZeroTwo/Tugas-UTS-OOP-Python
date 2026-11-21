@@ -81,6 +81,9 @@ python main.py
    ```bash
    pip install flask
    ```
+   Atau jika tidak bisa maka jalankan code di bawah ini menggunakan PowerShell
+   & "$env:USERPROFILE\.local\bin\uv.exe" pip install --system --break-system-packages flask
+   ```
 2. Jalankan server web:
    ```bash
    python app_flask.py
