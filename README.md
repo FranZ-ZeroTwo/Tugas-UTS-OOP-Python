@@ -81,15 +81,19 @@ python main.py
    ```bash
    pip install flask
    ```
-   Jika tidak bisa install maka jalankan code di bawah ini menggunakan PowerShell
+   Jika tidak bisa install maka jalankan code di bawah ini menggunakan PowerShell:
    ```bash
    & "$env:USERPROFILE\.local\bin\uv.exe" pip install --system --break-system-packages flask
    ```
-2. Jalankan server web:
+   Cek daftar paket yang terpasang untuk memastikan flask sudah masuk ke environment Python tersebut:
+   ```bash
+   & "$env:USERPROFILE\.local\bin\uv.exe" pip list --system
+   ```
+3. Jalankan server web:
    ```bash
    python app_flask.py
    ```
-3. Buka browser dan akses alamat:
+4. Buka browser dan akses alamat:
    ```text
    [http://127.0.0.1:5000](http://127.0.0.1:5000)
    ```
